@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <meta charset="UTF-8">
+            <title>Dissection Exhibit</title>
+            <link rel="stylesheet" type="text/css" href="index.css">
+            <script src="index.js"></script>
+        </head> 
+        
+       
+<body>
+
+<!-- index page-->  
+    <h1>
+    <img class=logo src="images/dislogo1.png" alt=dissection>
+    </h1> 
+        
+    <p class="dashed">Dissection, the action of breaking something down into its component parts in order to better understand it, appears repeatedly in human endeavors. It is an investigation driven, as most investigations are, either by curiosity or by an intense need for understanding. We break a thing down to find out what it is made of, how it works, and why the whole exists as it does. <br><br>
+
+The objects gathered in this exhibit reveal attempts made by their creators to dissect subjects of great interest to them. These objects, which appear in the form of photographs, antiquarian books, and artist books, reside in special collections located in libraries across the world. Each object is evidential in nature, the result of intensive research or experimentation that in some way simulates the procedure of a dissection. <br><br>
+
+
+Some dissections are carried out postmortem. They are attempts to understand the events of the past, like Sophie Calle’s post-relationship equivocation <i>Take Care of Yourself.</i> Postmortem dissections can also be attempts to understand phenomena that extend from the past to the present, like Michelle Dizon’s investigation of long-standing bias in Sociology in <i>White Gaze.</i> In their most recognizable (and literal) iteration, postmortem dissections are carried out with an eye toward the future, like Andreas Vesalius’s scientific, educational, and anatomical <i>De Humani.</i> There is a sense of sacrifice in this third kind, a solemn acceptance of one death that is closely tied to a vulnerable hope that such an endeavor may help prevent future deaths. <br><br>
+
+Other dissections are non-invasive and can be carried out while the subject continues to thrive. These dissections often take the form of snapshots in time. Attempts to freeze and even break down time can be observed in Muybridge’s and Dickson’s photographs. As Dickson breaks down the small death that is a sneeze, he replaces its folkloric existential peril with fact and even humor. <br><br>
+
+
+All dissections, thus, grapple with death. They are human attempts to understand, postpone, or invite finality. Crucially, they leave behind evidence, laid out in a way that will be explicitly understandable to future viewers. In this way, they serve as generous offerings for others to benefit in kind from their creators’ labored research. They are invitations for connection. 
+    </p>
+      
+<!--Muybridge-->
+    
+    <div class="containerMUYB">
+        <img src="images/covers/muybridge_lg.jpg"  alt="Muybridge" class="image">
+        <div class="overlay" onclick="openModal();currentSlide(1)">
+        <div class="text">Athletes. Back summersault</div>
+        </div>
+    </div>
+    
+    <!--Muybridge Lightbox-->
+    
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/muybridge/muybridge_lg_1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/muybridge/muybridge_2.jpg" style="width:100%">
+            </div>
+               
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"><i>Athletes. Back summersault</i> c1881<br>Eadweard Muybridge<br>Photographic print: albumen<br>Library of Congress, Prints and Photographs Division<br><br>Muybridge was groundbreaking in his use of photography to break down motion into a series of consecutive positions. Muybridge’s photographs are special in that they freeze actions that cannot be broken down accurately by performing the actions at a slower pace. The backflip depicted here is an excellent example of an action that cannot exist in slow motion in the real world.</p>
+            </div>
+
+        </div>
+    </div>
+      
+    
+ <!--PIG-->
+      
+    <div class="containerPIG">
+        <img src="images/covers/pig05049cover.jpg" alt="Pig 05049" class="image">
+        <div class="overlay" onclick="openModal2();currentSlide(1)">
+        <div class="text">Pig 05049</div>
+        </div>
+    </div>
+
+    <!--PIG Lightbox-->
+    
+    <div id="myModal2" class="modal">
+        <span class="close cursor" onclick="closeModal2()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/pig05049/pig05049.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/pig05049/pig05049.jpg" style="width:100%">
+            </div>
+               
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption2"><i>Pig 05049</i> 2007<br>Christien Meindertsma<br>Artist Book: digitally printed<br>Pratt Institute Libraries, Artists' Books Collection<br><br>Meindertsma endeavored on a research project that would reveal all of the products that can be made from a single pig. PIG 05049 presents a visual guide of a pig’s byproducts, listed consecutively. In this format, each product holds equal importance, and meat products are relegated to a surprisingly small section of the list.</p>
+            </div>
+
+        </div>
+    </div>
+      
+    
+        
+ <!--CARE-->
+    
+    
+    <div class="containerCARE">
+        <img src="images/covers/takeCare_cover.jpg" alt="Take Care" class="image">
+        <div class="overlay" onclick="openModal3();currentSlide(1)">
+        <div class="text">Take Care of Yourself</div>
+        </div>
+    </div>
+        
+    
+       <!--CARE Lightbox-->
+    
+    <div id="myModal3" class="modal">
+        <span class="close cursor" onclick="closeModal3()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/takeCare/takeCare.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/takeCare/takeCare.jpg" style="width:100%">
+            </div>
+               
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption3"><i>Take Care of Yourself</i> 2007<br>Sophie Calle<br>Artist Book: digitally printed, includes 4 videodiscs<br>Pratt Institute Libraries, Artists' Book Collection<br><br>After a particularly painful break-up, executed by a partner over email, Sophie Calle turns to friends and professionals for interpretations of said email. In total, 107 dissections of the email are presented, each through a unique lens. Through the collection of these analyses, Calle works to process the event before our eyes.</p>
+            </div>
+
+        </div>
+    </div> 
+    
+    
+    <!--SNEEZE-->
+    
+    <div class="containerSNEEZE">
+        <img src="images/covers/sneeze_cover_2.jpg" alt="Sneeze" class="image">
+        <div class="overlay" onclick="openModal4();currentSlide(1)">
+        <div class="text">Kinetoscopic Record of a Sneeze</div>
+        </div>
+    </div>
+ 
+     <!--SNEEZE Lightbox-->
+        
+    <div id="myModal4" class="modal">
+        <span class="close cursor" onclick="closeModal4()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/sneeze/sneeze_2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/sneeze/sneeze.jpg" style="width:100%">
+            </div>
+               
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption4"><i>Edison kinetoscopic record of a sneeze / taken + copyrighted by W.K.-L. Dickson, Orange, NJ</i> 1894<br>other title <i>Fred Ott's sneeze</i><br>William Kennedy-Laurie Dickson<br>Photographic print: gelatin<br>Library of Congress, Prints and Photographs Division<br><br>During the Plague and the Renaissance, a sneeze was sometimes referred to as a “small death,” or La Petite Mort. The term “small death” refers to a brief perceived loss of consciousness. During the aforementioned Renaissance period, it was believed that a sneeze temporarily stopped a person’s heart. Dickson inverts this sentiment by temporarily stopping a sneeze through photography, imbuing the action with both factuality and humor.</p>
+            </div>
+
+        </div>
+    </div> 
+    
+    
+     <!--HUMANI-->
+    
+    <div class="containerHUMANI">
+        <img src="images/covers/deHumani_cover.jpg" alt="De Humani" class="image">
+        <div class="overlay" onclick="openModal5();currentSlide(1)">
+        <div class="text">De Humani Corporis Fabrica</div>
+        </div>
+    </div>
+   
+    <!--HUMANI Lightbox-->
+        
+    <div id="myModal5" class="modal">
+        <span class="close cursor" onclick="closeModal5()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/deHumani/deHumaniCoverBlackBackground.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/deHumani/humani_stack.jpg" style="width:100%">
+            </div>
+               
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption5"><i>
+De humani corporis fabrica libri septem</i> 1568<br>Andreas Vesalius<br>Book bound in human skin by Josse Schavye<br>Brown University's John Hay Library, History of Science Collection<br><br>De Humani Corporis Fabrica offers detailed drawings and descriptions of the human anatomy. On page 164, a skeleton stands cross-legged, eye sockets gazing down at a skull that rests beneath its right hand, presumably contemplating its own (post)mortal state. A memento mori of such heavy-handed self reflexivity proves presciently apropos for an anatomy book that would someday find itself bound in human skin. The source of the skin used in the binding of this book remains a mystery.<br><br>*Note: the 1st image is of a copy housed at the Smithsonian Libraries, also bound by Josse Schavye, and suspected to be bound in human skin. The second image shows Brown University's copy bound in human skin on the bottom of the stack; photographs of this copy are rare. Images of interior pages are from a copy housed in Universitätsbibliothek Basel in Switzerland.</p>
+            </div>
+
+        </div>
+    </div> 
+    
+    
+   <!--GAZE--> 
+    
+    <div class="containerGAZE">
+        <img src="images/covers/whiteGaze_cover.jpg" alt="White Gaze" class="image">
+        <div class="overlay" onclick="openModal6();currentSlide(1)">
+        <div class="text">White Gaze</div>
+        </div>
+    </div>
+        
+       <!--GAZE Lightbox-->
+        
+    <div id="myModal6" class="modal">
+        <span class="close cursor" onclick="closeModal6()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 2</div>
+                <img src="images/whiteGaze/whiteGaze_cover.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 2</div>
+                <img src="images/whiteGaze/whiteGaze_cover.jpg" style="width:100%">
+            </div>
+               
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption6"><i>White Gaze</i> 2019<br>Michelle Dizon and Vịêt Lê<br>Artist Book: printed<br>The Clark Art Institute Library, Artists' Books Collection<br><br>Dizon takes pages from National Geographic magazines and removes words and images until she is left with graphically arresting poetic compositions that reveal the implicit biases of the original documents’ creators. With an archive of National Geographic magazines as her resource material, she compiles her subtractive compositions in this book. By sculpturally chipping away at the fluff, Dizon showcases the white gaze that drives the narrative in the original publications.</p>
+            </div>
+
+        </div>
+    </div>     
+        
+<div>
+    <p class=bottom>Further Reading<br><br>Athletes. Back summersault. (n.d.). [Image]. Library of Congress, Washington, D.C. 20540 USA. Retrieved November 8, 2021, from https://www.loc.gov/item/2009630522/ <br><br>Braun, M. (2010). Eadweard Muybridge. Reaktion Books, Limited. http://ebookcentral.proquest.com/lib/pratt/detail.action?docID=850989<br><br>Talk:La petite mort. (2021). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Talk:La_petite_mort&oldid=1034349904
+
+
+<br><br>Edison kinetoscopic record of a sneeze / taken + copyrighted by W.K.-L. Dickson, Orange, N.J. (n.d.). [Image]. Library of Congress, Washington, D.C. 20540 USA. Retrieved November 8, 2021, from https://www.loc.gov/item/95505651/
+<br><br>Preview of a Major Exhibition (February 24, 1997)—Library of Congress Information Bulletin. (n.d.). Library of Congress. Retrieved November 8, 2021, from https://www.loc.gov/loc/lcib/970224/treasures.html
+<br><br>Talk:La petite mort. (2021). In Wikipedia. https://en.wikipedia.org/w/index.php?title=Talk:La_petite_mort&oldid=1034349904
+        <br><br>852 RARE: Old Books, New Technologies, and “The Human Skin Book” at HLS – Et. Seq: The Harvard Law School Library Blog. (n.d.). Retrieved October 22, 2021, from https://etseq.law.harvard.edu/2014/04/852-rare-old-books-new-technologies-and-the-human-skin-book-at-hls/ 
+<br><br>Amber. (2019, October 18). Anthropodermic Bibliopegy: Books Bound in Human Skin. Bibliology. https://www.biblio.com/blog/2019/10/anthropodermic-bibliopegy-books-bound-in-human-skin/
+<br><br>Anthropodermic bibliopegy. (n.d.). The Reader Wiki, Reader View of Wikipedia. Retrieved October 22, 2021, from https://thereaderwiki.com/en/Anthropodermic_bibliopegy
+<br><br>Ebenstein, J., & Dickey, C. (2014). The Morbid Anatomy anthology (First edition.). Morbid Anatomy Press.
+<br><br>Is it true the John Hay Library has books bound in human skin? - Answers. (n.d.). Retrieved October 17, 2021, from https://brown.libanswers.com/faq/283734
+<br><br>Margócsy, D., Somos, M., & Joffe, S. N. (2018). The Fabrica of Andreas Vesalius: A Worldwide Descriptive Census, Ownership, and Annotations of the 1543 and 1555 Editions. Brill. https://eds-a-ebscohost-com.ezproxy.pratt.edu/eds/ebookviewer/ebook/bmxlYmtfXzE4NDUxNDFfX0FO0?sid=fbc2909b-2cfd-4344-9ea3-1bb9764cfb50@sessionmgr102&vid=1&format=EB
+<br><br>Newly Digitized 1543 Edition | Vesalius. (n.d.). Retrieved November 8, 2021, from https://www.vesaliusfabrica.com/en/original-fabrica/the-art-of-the-fabrica/newly-digitized-1543-edition.html
+<br><br>Rosenbloom, M. (2020). Dark Archives: A Librarian’s Investigation into the Science and History of Books Bound in Human Skin (1st edition). Farrar, Straus and Giroux.
+<br><br>The Name “Fabrica” | Vesalius. (n.d.). Retrieved October 18, 2021, from https://www.vesaliusfabrica.com/en/original-fabrica/inside-the-fabrica/the-name-fabrica.html
+
+        <br><br>Dizon_White gaze. (n.d.). Retrieved November 8, 2021, from https://www.clarkart.edu/Library/Special-Collections/artists-books-collection/Special-Collections-(22)
+
+        
+</p>
+    </div>
+ 
+    
+  </body>
+</html>
