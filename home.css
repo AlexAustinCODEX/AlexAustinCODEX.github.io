@@ -40,9 +40,6 @@ main{
     background-color:transparent;
 }
 
-.container:hover .overlay {
-  opacity: 0.9;
-}
 
 p {
     font-family: "Futura", "Trebuchet MS", sans-serif;
@@ -69,7 +66,7 @@ a.button {
 /*#d1c0a8*/
 
 a.button:hover{
-    background-color:red;
+    background-color:#ff3341;
     color: white;
 }
 
@@ -86,16 +83,18 @@ a.button:hover{
     justify-content: center;
 }
 
+.end {
+    text-align: center;
+    justify-content: center;
+    color:#ccc;
+    margin-bottom: 1.5em;
+}
+
 .centered p {
     font-size:3vw;
     padding: 1vw;
     margin: 1vw;
     margin-top: -6vw;
-}
-
-.centeredinmodal {
-    text-align: center;
-    justify-content: center;
 }
 
 
@@ -186,11 +185,11 @@ a {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 70px; /* Location of the box */
+  padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  height:100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color:#f4f4f4dd; /* Black w/ opacity */
     animation:fadein 0.55s;
@@ -203,6 +202,9 @@ a {
   padding: 1em 1.8em;
   border: none;
   width: 80%; 
+    height: 85vh;
+    overflow:scroll;
+
 }
 
 @keyframes fadein {
@@ -215,31 +217,26 @@ a {
 }
 
 
-.modal-content p {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    color:black;
-    font-size: 1.5em;
-}
-
 .modal a.button {
-    font-size: 2.5em;
-    margin:3vw;
-    margin-top:6vw;
-    padding:1.5vw 3.5vw;
-    background-color:#ff1124;
-    color:antiquewhite;
+    font-size: 4em;
+    margin-top:3vw;
+    margin-left:3vw;
+    padding:7vw 12vw 2vw 12vw;
+    background-color:#ff3341;
+    color:#00000044;
+    border-radius: 0.3em;
 }
 
 /*#99ff66*/
 
 .modal a.button:hover{
-    background-color:hotpink;
-    color:brown;
+    color:white;
 }
 
+.centered .modal {
+    text-align: center;
+    justify-content: center;
+}
 
 /* The Close Button */
 .close {
@@ -251,75 +248,27 @@ a {
 
 .close:hover,
 .close:focus {
-  color:#4444ff;
+  color:#bbbbff;
   text-decoration: none;
   cursor: pointer;
 }
 
-
-
-
-
-/*
-.modal {
-  display: none; /* Hidden by default 
-  position: fixed; /* Stay in place 
-  z-index: 1; /* Sit on top 
-  padding-top: 70px; /* Location of the box 
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width 
-  height: 100%; /* Full height 
-  overflow: auto; /* Enable scroll if needed 
-  background-color:#4444aadd; /* Black w/ opacity 
-    animation:fadein 0.55s;
-}
-
-
-.modal-content {
-  background-color:aliceblue;
-  margin: auto;
-  padding: 1em 1.8em;
-  border: none;
-  width: 80%; 
-}
-.modal-content p {
+dl {
+    font-family: "Futura", sans-serif;
     margin-left: 0.5em;
     margin-right: 0.5em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 2em;
     color:black;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
-.modal a.button {
-    font-size: 2.5em;
-    margin:3vw;
-    margin-top:6vw;
-    padding:1.5vw 3.5vw;
-    background-color:white;
+dt {
+    color:#aaa;
+    padding-bottom:0.3em;
 }
 
-
-
-.modal a.button:hover{
-    background-color:darkslategray;
-    color: #4444ff;
+dd {
+    padding-bottom: 0.5em;
 }
-
-
-
-.close {
-  color: blue;
-  float: right;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: orange;
-  text-decoration: none;
-  cursor: pointer;
-}
-*/
