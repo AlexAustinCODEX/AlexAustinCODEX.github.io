@@ -1,0 +1,366 @@
+body {
+    background: #e6e5ee;
+}
+
+h1{
+   width:90%;
+margin-left:5%;
+}
+
+.logo {
+    width: 100%;
+    align-content: center;
+}
+
+h2 {
+
+}
+
+
+p.dashed {
+    font-size: 1.7vw;
+    font-family: "Trebuchet MS", sans-serif;
+    color: brown;
+    border-color:#600000;
+    font-weight: bold;
+    border-style: dashed;
+    border-width:thick;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5em;
+    padding: 2.7vw;
+    column-count: 2;
+    background-color:#FFC0CB32;
+    box-shadow: 0px 0px 60px #FFC0CBca;
+    border-radius:10px;
+}
+    
+/*
+
+    font-size: 1.7vw;
+    font-family: "Trebuchet MS", sans-serif;
+    color: brown;
+    border-color:#600000;
+    font-weight: bold;
+    border-style: dashed;
+    border-width:0.25em;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding: 3vw;
+    column-count: 2;
+    background-color:#FFC0CB32;
+    box-shadow: 0px 0px 60px #FFC0CBca;
+    border-radius:10px;
+
+
+    font-size: 1.7vw;
+    font-family: "Trebuchet MS", sans-serif;
+    color: brown;
+    border-color:#600000;
+    font-weight: bold;
+    border-style: dashed;
+    border-width:0.25em;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top:-4vw;
+    padding: 3vw;
+    column-count: 2;
+    border-top: 6vw solid;
+    border-bottom: 3em solid;
+    border-image: url() 200 110 repeat;
+
+url(https://i.postimg.cc/VkDVzn6r/image.png) 200 110 repeat;
+
+}
+*/
+
+.containerMUYB {
+  position: relative;
+  width: 50%;
+    margin-left: 35vw;
+    margin-top: 5vw;
+}
+
+.containerMUYB:hover .overlay {
+  opacity: 0.9;
+}
+
+.containerPIG {
+  position: relative;
+  width: 25%;
+    margin-left: 15vw;
+    margin-top: 5vw;
+}
+
+.containerPIG:hover .overlay {
+  opacity: 0.9;
+}
+
+.containerCARE {
+  position: relative;
+  width: 55%;
+    margin-left: 40vw;
+    margin-top: 0vw;
+}
+
+.containerCARE:hover .overlay {
+  opacity: 0.9;
+}
+
+.containerHUMANI {
+  position: relative;
+  width: 35%;
+    margin-left: 55vw;
+    margin-top: 5vw;
+}
+
+.containerHUMANI:hover .overlay {
+  opacity: 0.9;
+}
+
+.containerGAZE {
+  position: relative;
+  width: 40%;
+    margin-left: 7vw;
+    margin-top: 0vw;
+}
+
+.containerGAZE:hover .overlay {
+  opacity: 0.9;
+}
+
+.containerSNEEZE {
+  position: relative;
+  width: 25%;
+    margin-left: 25vw;
+    margin-top: 1vw;
+}
+
+.containerSNEEZE:hover .overlay {
+  opacity: 0.9;
+}
+
+.containerINQUIRY {
+  position: relative;
+  width: 70%;
+    margin-left: 15vw;
+    margin-top: 1vw;
+}
+
+.containerINQUIRY:hover .overlay {
+  opacity: 0.9;
+}
+
+.containerTINYVENUS {
+  position: relative;
+  width: 25%;
+    margin-left: 55vw;
+    margin-top: 0vw;
+}
+
+.containerTINYVENUS:hover .overlay {
+  opacity: 0.9;
+}
+.containerVENUS {
+  position: relative;
+  width: 90%;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.containerVENUS:hover .overlay {
+  opacity: 0.9;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: brown;
+    cursor: pointer;
+}
+
+.text {
+  color: #e6e5ee;
+  font-size: 3vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    font-family: "Helvetica Light", sans-serif;
+    cursor: pointer;
+}
+
+/*modal*/ 
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ .column {
+float:left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(11, 11, 69, 0.9);
+}
+
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #0b0b45;
+  margin: auto;
+    margin-top:-5vw;
+  padding: 0;
+  width: 45em;
+  max-width: 1200px;
+}
+
+.vertpic {
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:56.6%;
+}
+
+/* The Close Button */
+.close {
+  color: #e6e5ee;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 13em;
+  width: auto;
+  padding: 16px;
+  margin-top: 0em;
+  color: rgba(165, 42, 42, 0.5);
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select:none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(165, 42, 42, 0.9);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: rgba(230, 229, 238, 0.6);
+  font-size: 1.25em;
+  padding: 0.7em 0.7em;
+  position: absolute;
+  top: 0;
+    font-weight: bold;
+    font-family:"Trebuchet MS", sans-serif;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: left;
+  background-color: #0b0b45;
+  padding: 1vw 1vw;
+  color: #e6e5ee;
+    font-family:"Trebuchet MS", sans-serif;
+    font-weight: bold;
+}
+
+img.demo {
+    opacity:1;
+}
+
+.bottom {
+    font-family:"Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-size: 2.3vw;
+    color: white;
+    overflow-wrap: break-word;
+    border: 40px solid;
+    border-image: url(https://i.postimg.cc/76KCWJR1/image.png) 200 repeat;
+    padding-top:5vw;
+    margin-top:11vw;
+}
+
+footer {
+    font-family:"Trebuchet MS", sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    color: white;
+}
+
+
+
+.firstcharacter {
+  float: left;
+  font-size: 7vw;
+  line-height: 5vw;
+  padding-right: 0.4vw;
+    padding-top: 0.5vw;
+    color: #9B1F1f;
+}
+
